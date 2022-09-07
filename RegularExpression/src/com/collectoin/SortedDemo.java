@@ -35,15 +35,15 @@ public static void main(String args[])
 	while(iterator1.hasNext())
 		System.out.println(iterator1.next());
 	
-	Set<String> hash1 = new LinkedHashSet<>();
-	hash1.add("asdfsdf");
-	hash1.add("bsdfsd");
-	hash1.add("cer");
-	hash1.add("d");
-	System.out.println(hash1);
-	hash1.remove("d");
-	hash1.add("hjh");
-	Iterator<String> i1 = hash1.iterator();
+	Set<String> hashset = new LinkedHashSet<>();
+	hashset.add("asdfsdf");
+	hashset.add("bsdfsd");
+	hashset.add("cer");
+	hashset.add("d");
+	System.out.println(hashset);
+	hashset.remove("d");
+	hashset.add("hjh");
+	Iterator<String> i1 = hashset.iterator();
 	while(i1.hasNext())
 		System.out.println(i1.next());
 	
